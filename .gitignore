@@ -5,6 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
+datasets/DOWNLOADS
+datasets/my_CocoStuff164k_directory
 
 # Distribution / packaging
 .Python

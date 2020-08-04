@@ -5,7 +5,8 @@ import itertools
 import os
 import pickle
 import sys
-sys.path.append('home/se26956/projects/IIC')
+sys.path.insert(0,'C:\\Users\\micro\\Documents\\GitHub\\Fish counting\\IIC')
+sys.path.insert(0,'/content/IIC')
 from datetime import datetime
 
 import matplotlib
@@ -14,6 +15,8 @@ import torch
 
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+
+print(sys.path)
 
 import code.archs as archs
 from code.utils.cluster.general import config_to_str, get_opt, update_lr, nice
