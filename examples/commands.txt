@@ -9,8 +9,10 @@ python code/scripts/cluster/cluster_sobel_twohead.py --model_ind 569 --arch Clus
 
 ****************************************************************************************************
 
+batch sie 50
+dataloaders 2
 ***************************************************************************
-python code/scripts/cluster/cluster_sobel_twohead.py --model_ind 569 --arch ClusterNet5gTwoHead --mode IID --dataset STL10 --dataset_root "C:/Users/micro/Documents/GitHub/Fish counting/IIC/datasets/my_CocoStuff164k_directory" --gt_k 10 --output_k_A 70 --output_k_B 10 --lamb 1.0 --lr 0.0001  --num_epochs 2000 --batch_sz 50 --num_dataloaders 3 --num_sub_heads 5 --mix_train --crop_orig --rand_crop_sz 64 --input_sz 64 --head_A_first --double_eval --batchnorm_track > out/gnodee2_0_m569.out &
+python code/scripts/cluster/cluster_sobel_twohead.py --model_ind 569 --arch ClusterNet5gTwoHead --mode IID --dataset STL10 --dataset_root "C:/Users/micro/Documents/GitHub/Fish counting/IIC/datasets/my_CocoStuff164k_directory" --gt_k 10 --output_k_A 70 --output_k_B 10 --lamb 1.0 --lr 0.0001  --num_epochs 2000 --batch_sz 50 --num_dataloaders 2 --num_sub_heads 5 --mix_train --crop_orig --rand_crop_sz 64 --input_sz 64 --head_A_first --double_eval --batchnorm_track > out/gnodee2_0_m569.out &
 
 
 ****************************************************************************************************
